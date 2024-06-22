@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.588" height="20.588" viewBox="0 0 20.588 20.588">
+  <g id="Icons_Brand-Logos_facebook" data-name="Icons/Brand-Logos/facebook" transform="translate(0 20.588) rotate(-90)">
+    <g id="frame" fill="none" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="20.588" height="20.588" stroke="none"/>
+      <rect x="0.5" y="0.5" width="19.588" height="19.588" fill="none"/>
+    </g>
+    <g id="Icons_Brand-Logos_facebook-f" data-name="Icons/Brand-Logos/facebook-f" transform="translate(6.863 3.431)">
+      <path id="facebook-f" d="M12.45,4.278h1.29V2.1A17.924,17.924,0,0,0,11.86,2,2.943,2.943,0,0,0,8.717,5.225v1.8H6.61V9.467H8.717v6.259h2.525V9.467h2.1l.316-2.443H11.242V5.466C11.242,4.745,11.434,4.278,12.45,4.278Z" transform="translate(-6.61 -2)" fill="#2c2c2c" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

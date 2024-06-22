@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.588" height="20.588" viewBox="0 0 20.588 20.588">
+  <g id="Icons_Brand-Logos_linkedin" data-name="Icons/Brand-Logos/linkedin" transform="translate(0 20.588) rotate(-90)">
+    <g id="frame" transform="translate(0 0)" fill="none" stroke="#c7d1e4" stroke-width="1" opacity="0">
+      <rect width="20.588" height="20.588" stroke="none"/>
+      <rect x="0.5" y="0.5" width="19.588" height="19.588" fill="none"/>
+    </g>
+    <g id="linkedin" transform="translate(3.431 3.431)">
+      <path id="Path_80" data-name="Path 80" d="M15.147,8a5.147,5.147,0,0,1,5.147,5.147v6H16.863v-6a1.716,1.716,0,0,0-3.431,0v6H10v-6A5.147,5.147,0,0,1,15.147,8Z" transform="translate(-5.783 -5.058)" fill="#2c2c2c"/>
+      <rect id="Rectangle_16" data-name="Rectangle 16" width="3.431" height="10.294" transform="translate(0 3.435)" fill="#2c2c2c"/>
+      <circle id="Ellipse_14" data-name="Ellipse 14" cx="1.716" cy="1.716" r="1.716" fill="#2c2c2c"/>
+    </g>
+  </g>
+</svg>

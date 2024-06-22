@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="136.188" height="160.967" viewBox="0 0 136.188 160.967">
+  <defs>
+    <linearGradient id="linear-gradient" x1="6.945" y1="3.772" x2="8.082" y2="3.772" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#10bae7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.111" y1="4.821" x2="1.398" y2="5.129" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ae4593"/>
+      <stop offset="1" stop-color="#10bae7"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_253" data-name="Group 253" transform="translate(6285.212 1404.892) rotate(8)">
+    <g id="Butterfly" transform="translate(-6400 -520)">
+      <path id="Path_63" data-name="Path 63" d="M145.241,28.157s27.566,26.115,21.5,73.8c-3.788,29.758-27.973,74.289-102.913,73.583,0,0,28.646-3.932,47.752-14.718,0,0-3.86-6.775-26.871-6.319-30.175.6-26.187-7.114-20.141-21.971,8.5-20.914,17.31-31.6,75.6-10.568,0,0-24.607-17.3-31.249-45.983C104.292,56.029,115.762,26.343,145.241,28.157Z" transform="translate(-54.899 -28.077)" fill="url(#linear-gradient)"/>
+      <path id="Path_64" data-name="Path 64" d="M156.784,41.5s15.652,15.563,9.862,58.971c-4.834,36.216-55.567,79.318-109.126,72.938,0,0,33.707-.222,51.328-12.37,0,0-2.23-5.273-21.593-1.457-25.392,5.006-20.9-2.253-13.616-15.975,10.24-19.323,19.206-29.847,64.95-20.358A45.964,45.964,0,0,1,119.222,88.2C118.31,71.647,132.343,44.314,156.784,41.5Z" transform="translate(-53.654 -34.034)" fill="url(#linear-gradient-2)"/>
+      <path id="Path_65" data-name="Path 65" d="M157.543,37.353s20.936,28.329,5.451,72.637c-9.667,27.65-47.807,59.972-112.424,64.611,0,0,33.59-7.081,47.9-16.186,0,0-2.292-6.919-24.307-9.517-28.868-3.4-23.489-10.179-14.712-23.428,12.365-18.661,22.922-27.611,74.156-.045,0,0-19.918-19.6-20.4-47.607C112.867,58.317,129.838,31.746,157.543,37.353Z" transform="translate(-50.57 -31.856)" fill="#ae4593" opacity="0.3"/>
+    </g>
+  </g>
+</svg>

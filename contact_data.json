@@ -1,0 +1,48 @@
+{
+    "contact_services": [
+      {
+        "title": "Technical Support",
+        "image": "./storage/uploads/contact-us/technical-support.svg",
+        "description": "Contact us through messages"
+      },
+      {
+        "title": "Service Request",
+        "image": "./storage/uploads/contact-us/service-request.svg",
+        "description": "Request service with the best quality"
+      },
+      {
+        "title": "Call Us",
+        "image": "./storage/uploads/contact-us/call-us.svg",
+        "description": "00352681552077"
+      }
+    ],
+    "contact_info": {
+      "location": {
+        "image": "./storage/uploads/contact-us/Pin.svg",
+        "text": "SYRIA - IDLIB"
+      },
+      "email": {
+        "image": "./storage/uploads/contact-us/email-5.svg",
+        "address": "info@topvaluecompany.com"
+      },
+      "social": [
+        {
+          "image": "./storage/uploads/contact-us/Icons-Brand-Logos-facebook.svg",
+          "link": "#"
+        },
+        {
+          "image": "./storage/uploads/contact-us/Icons-Brand-Logos-linkedin.svg",
+          "link": "#"
+        },
+        {
+          "image": "./storage/uploads/contact-us/Icons-Brand-Logos-twitter.svg",
+          "link": "#"
+        }
+      ],
+      "map": {
+        "image": "",
+        "iframe_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354913.568211738!2d36.758267656021815!3d34.798826835146066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e6dc413cc6a7%3A0x877546f4882af620!2sSyria!5e0!3m2!1sen!2seg!4v1673975357065!5m2!1sen!2seg"
+      }
+    }
+  }
+  

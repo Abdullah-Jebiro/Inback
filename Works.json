@@ -1,0 +1,43 @@
+{
+    "filters": [
+      { "id": "all", "label": "All" },
+      { "id": "1", "label": "Web design services" },
+      { "id": "2", "label": "Graphic Design services" },
+      { "id": "3", "label": "Social media management" },
+      { "id": "4", "label": "Motion Graphic Services" },
+      { "id": "5", "label": "Mobile Application Developments" }
+    ],
+    "items": [
+      {
+        "id": "1",
+        "src": "/storage/uploads/portfolio/1675179433.png",
+        "alt": "Fujibooks-Books",
+        "title": "Fujibooks-Books"
+      },
+      {
+        "id": "1",
+        "src": "/storage/uploads/portfolio/1675179433.png",
+        "alt": "Hojozat company - tourism",
+        "title": "Hojozat company - tourism"
+      },
+      {
+        "id": "1",
+        "src": "/storage/uploads/portfolio/1675179433.png",
+        "alt": "wheels- Electronic shop",
+        "title": "wheels- Electronic shop"
+      },
+      {
+        "id": "3",
+        "src": "/storage/uploads/portfolio/1675179433.png",
+        "alt": "Honeymoon - tourism",
+        "title": "Honeymoon - tourism"
+      },
+      {
+        "id": "3",
+        "src": "/storage/uploads/portfolio/1675179433.png",
+        "alt": "minute - perfumes",
+        "title": "minute - perfumes"
+      }
+    ]
+  }
+  

@@ -1,0 +1,323 @@
+/* Define CSS variables */
+
+:root {
+    --main-color: #2a0a62;
+    --bg-secondary-color: #f7f7f7;
+    --text-color: #0f0b33;
+    --text-light: #908f8f;
+    --border-color: #e7e7eb;
+    --background-color: #fff;
+    --font-size-h1: 38px;
+    --font-size-h4: 20px;
+    --font-size-p: 18px;
+    --font-weight-bold: 700;
+    --font-weight-medium: 600;
+    --button-height: 61px;
+    --button-width: 328px;
+    --button-radius: 24px;
+    --section-padding: 20px;
+    --section-margin-top: 50px;
+    --section-margin-bottom: 80px;
+    --section-border-radius: 44px;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&display=swap");
+* {
+  font-family: "Cairo", sans-serif;
+}
+
+/* General styles */
+body {
+    background-color: var(--bg-secondary-color) !important;
+    direction: rtl;
+    overflow-x: hidden;
+}
+
+body section.contact-section {
+    margin: var(--section-margin-top) 0 var(--section-margin-bottom);
+}
+
+body section.contact-section .head {
+    text-align: start;
+}
+
+body section.contact-section .head h1 {
+    position: relative;
+    width: fit-content;
+    font-size: var(--font-size-h1);
+    color: #2b225c;
+    font-weight: var(--font-weight-bold);
+}
+
+body section.contact-section .head h1::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 55px;
+    width: 264px;
+    height: 9px;
+    background-color: var(--primary-color);
+    clip-path: polygon(100% 1%, 100% 103%, -63% 100%);
+}
+
+body section.contact-section .head p {
+    color: var(--text-color);
+    margin-top: 30px;
+    font-size: var(--font-size-p);
+    font-weight: var(--font-weight-bold);
+}
+
+body section.contact-section .head .bottom {
+    text-align: center;
+    margin: 30px 0;
+}
+
+body section.contact-section .head .bottom button {
+    display: block;
+    border: none;
+    background-color: var(--primary-color);
+    height: var(--button-height);
+    width: var(--button-width);
+    margin: 30px auto 0;
+    padding: 0;
+    font-size: var(--font-size-p);
+    font-weight: var(--font-weight-bold);
+    color: #fff;
+}
+
+body section.contact-section .contact-services {
+    background-color: var(--background-color);
+    border-radius: var(--section-border-radius);
+    margin-top: var(--section-margin-top);
+    padding: var(--section-padding) 10px;
+    min-height: 249px;
+    display: flex;
+    align-items: center;
+}
+
+body section.contact-section .contact-services .row {
+    width: 100%;
+}
+
+body section.contact-section .contact-services .row div {
+    text-align: center;
+}
+
+body section.contact-section .contact-services .row div h3 {
+    font-size: var(--font-size-h4);
+    color: var(--primary-color);
+    font-weight: var(--font-weight-bold);
+    margin: 15px 0;
+}
+
+body section.contact-section .contact-services .row div p {
+    font-size: 14px;
+    color: var(--text-light);
+    margin: 0;
+}
+
+body section.contact-section .contact-services .row div:nth-child(2) {
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+}
+
+body section.contact-section .contact {
+    margin-top: var(--section-margin-top);
+}
+
+body section.contact-section .contact .row .col-lg-6 {
+    margin-bottom: 50px;
+}
+
+body section.contact-section .contact .row .col-lg-6 .contact-form {
+    background-color: var(--background-color);
+    height: 100%;
+    border-radius: var(--button-radius);
+    padding: var(--section-padding);
+}
+
+body section.contact-section .contact .row .col-lg-6 .contact-form h4 {
+    font-size: var(--font-size-h4);
+    color: var(--text-color);
+    font-weight: var(--font-weight-bold);
+}
+
+body section.contact-section .contact .row .col-lg-6 .contact-form form {
+    margin-top: 30px;
+}
+
+body section.contact-section .contact .row .col-lg-6 .contact-form form .mb-3,
+body section.contact-section .contact .row .col-lg-6 .contact-form form .mb-4 {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px !important;
+}
+
+body section.contact-section .contact .row .col-lg-6 .contact-form form .mb-3 div,
+body section.contact-section .contact .row .col-lg-6 .contact-form form .mb-4 div {
+    width: 50%;
+    position: relative;
+}
+
+body section.contact-section .contact .row .col-lg-6 .contact-form form .mb-3 div label,
+body section.contact-section .contact .row .col-lg-6 .contact-form form .mb-4 div label {
+    position: absolute;
+    color: #b8babf;
+    font-size: 14px;
+    font-weight: var(--font-weight-medium);
+    padding: 0 5px;
+    top: 50%;
+    transition: 300ms;
+    background-color: var(--background-color);
+    right: 55px;
+    transform: translateY(-50%);
+}
+
+body section.contact-section .contact .row .col-lg-6 .contact-form form .mb-3 div .icon,
+body section.contact-section .contact .row .col-lg-6 .contact-form form .mb-4 div .icon {
+    position: absolute;
+    width: fit-content;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    padding-left: 10px;
+}
+
+body section.contact-section .contact .row .col-lg-6 .contact-form form .mb-3 div .arrow-icon,
+body section.contact-section .contact .row .col-lg-6 .contact-form form .mb-4 div .arrow-icon {
+    position: absolute;
+    width: fit-content;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+
+body section.contact-section .contact .row .col-lg-6 .contact-form form .details div label {
+    left: 15px;
+}
+
+body section.contact-section .contact .row .col-lg-6 .contact-form form button {
+    display: block;
+    border: none;
+    background-color: var(--primary-color);
+    height: var(--button-height);
+    width: 100%;
+    padding: 0;
+    font-size: var(--font-size-p);
+    font-weight: var(--font-weight-bold);
+    color: #fff;
+}
+
+body section.contact-section .contact .row .col-lg-6 .contact-info .info {
+    margin: 30px 0;
+}
+
+body section.contact-section  .contact .row .col-lg-6 .contact-info .info .location, 
+body section.contact-section .contact .row .col-lg-6 .contact-info .info .email div {
+    display: flex;
+}
+
+body section.contact-section .contact .row .col-lg-6 .contact-info {
+    background-color: var(--background-color);
+    border-radius: var(--button-radius);
+    padding: var(--section-padding);
+}
+
+body section.contact-section .contact .row .col-lg-6 .contact-info .info .location h5,
+body section.contact-section .contact .row .col-lg-6 .contact-info .info .email div h5 {
+    font-size: var(--font-size-h4);
+    color: #2c2c2c;
+    font-weight: var(--font-weight-bold);
+    margin-right: 15px;
+}
+
+body section.contact-section .contact .row .col-lg-6 .contact-info .info .email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body section.contact-section .contact .row .col-lg-6 .contact-info .info .email .social a {
+    margin: 0 5px;
+    transform: rotate(90deg);
+}
+
+body section.contact-section .contact .row .col-lg-6 .contact-info .map img {
+    position: absolute;
+    width: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* LTR (English) Specific Adjustments */
+html[lang="en"] body {
+    direction: ltr;
+    background-color: var(--bg-secondary-color) !important;
+}
+
+html[lang="en"] body section.contact-section .head h1::after {
+    right: unset;
+}
+
+html[lang="en"] body section.contact-section .contact .row .col-lg-6 .contact-form form .mb-3 div label,
+html[lang="en"] body section.contact-section .contact .row .col-lg-6 .contact-form form .mb-4 div label {
+    right: unset;
+    left: 55px;
+}
+
+html[lang="en"] body section.contact-section .contact .row .col-lg-6 .contact-form form .mb-3 div .icon,
+html[lang="en"] body section.contact-section .contact .row .col-lg-6 .contact-form form .mb-4 div .icon {
+    right: unset;
+    left: 15px;
+}
+
+html[lang="en"] body section.contact-section .contact .row .col-lg-6 .contact-form form .mb-4 div .arrow-icon {
+    left: unset;
+    right: 20px;
+}
+
+html[lang="en"] body section.contact-section .contact .row .col-lg-6 .contact-form form .details div label {
+    left: 15px;
+}
+
+html[lang="en"] body section.contact-section .contact .row .col-lg-6 .contact-info .info .location h5,
+html[lang="en"] body section.contact-section .contact .row .col-lg-6 .contact-info .info .email div h5 {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+    body section.contact-section .contact-services .row div:nth-child(2) {
+        border: none;
+        margin: 25px 0;
+    }
+
+    body section.contact-section .contact .row .col-lg-6 .contact-info .info .email {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    body section.contact-section .contact .row .col-lg-6 .contact-info .info .email .social {
+        margin-top: 15px;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    body section.contact-section .contact .row .col-lg-6 .contact-form form .mb-3 {
+        flex-direction: column;
+    }
+
+    body section.contact-section .contact .row .col-lg-6 .contact-form form .mb-3 div {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    body section.contact-section .how-to-work .bottom button {
+        width: 90%;
+    }
+}

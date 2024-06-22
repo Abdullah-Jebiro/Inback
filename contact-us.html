@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./storage/uploads/settings/icon_1675179763.svg">
+  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.rtl.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" media="all" />
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" media="all" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" media="all">
+    <link rel="preconnect" href="https://fonts.gstatic.com" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;500&display=swap" rel="stylesheet"
+        media="all">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/menu.css" media="all" />
+    <link rel="stylesheet" href="./css/main-ltr.css" media="all" />
+    <link rel="stylesheet" href="./css/contact-us.css" media="all" />
+
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" media="all" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" media="all" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>In Pack - contact us</title>
+</head>
+
+<body>
+    <section class="contact-section">
+        <div class="container">
+            <div class="head wow fadeInRight">
+                <h1>Contact Us</h1>
+                <p>Do you have an innovative application idea that you believe in? We'll turn it into reality for you.
+                    Start now.</p>
+            </div>
+            <div class="contact-services">
+                <div class="row" id="contact-services-row">
+                    <!-- Services will be populated dynamically here -->
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row">
+                    <div class="col-lg-6 wow fadeInRight">
+                        <div class="contact-form">
+                            <h4>Contact Us</h4>
+                            <form action="images/back/lib.php" method="post">
+                                <div class="mb-3">
+                                    <div>
+                                        <div class="icon">
+                                            <img src="./storage/uploads/contact-us/User-Icon.svg" />
+                                            <span>|</span>
+                                        </div>
+                                        <label class="" for="name-1">Name</label>
+                                        <input class="form-control" type="text" name="name" id="name-1" />
+                                    </div>
+                                    <div>
+                                        <div class="icon">
+                                            <img src="./storage/uploads/contact-us/Email-Icon.svg" />
+                                            <span>|</span>
+                                        </div>
+                                        <label for="email-1">Email</label>
+                                        <input class="form-control" type="email" name="email" id="email-1" />
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <div>
+                                        <div class="icon">
+                                            <img src="./storage/uploads/contact-us/User-Icon-1.svg" />
+                                            <span>|</span>
+                                        </div>
+                                        <label for="phone-1">Phone Number</label>
+                                        <input class="form-control" type="text" name="phone" id="phone-1" />
+                                    </div>
+                                    <div>
+                                        <div class="icon">
+                                            <img src="./storage/uploads/contact-us/Email-Icon.svg" />
+                                            <span>|</span>
+                                        </div>
+                                        <label for="company-1">Company Name</label>
+                                        <input class="form-control" type="text" name="company" id="company-1" />
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <div>
+                                        <div class="icon">
+                                            <img src="./storage/uploads/contact-us/Email-Icon-1.svg" />
+                                            <span>|</span>
+                                        </div>
+                                        <label for="city">City</label>
+                                        <input class="form-control" type="text" name="city" id="city" />
+                                    </div>
+                                </div>
+                                <div class="mb-4 details">
+                                    <div>
+                                        <label for="details-1">Details</label>
+                                        <textarea id="details-1" name="details" class="form-control"
+                                            rows="5"></textarea>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <button name="Add_request" type="submit">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInRight">
+                        <div class="contact-info">
+                            <div class="info">
+                                <div class="location">
+                                    <img id="location-image" src="" alt="">
+                                    <h5 id="location-text"></h5>
+                                </div>
+                                <div class="email">
+                                    <div>
+                                        <img id="email-image" src="" alt="">
+                                        <h5 id="email-address"></h5>
+                                    </div>
+                                    <div class="social" id="social-links">
+                                        <!-- Social links will be populated dynamically here -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="map">
+                                <img id="map-image" src="" alt="">
+                                <iframe id="map-iframe" src="" width="100%" height="400" style="border: 0"
+                                    allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/contact-us.js"></script>
+</body>
+
+</html>
