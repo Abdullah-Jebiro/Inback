@@ -1381,3 +1381,16 @@ nav.navbar .navbar-nav .nav-item .nav-link.active {
 .gallery__cards .inactive {
   display: none;
 }
+
+.see-more-link {
+  background: #AE4593 !important;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}

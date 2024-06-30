@@ -1,0 +1,47 @@
+{
+    "services": [
+      {
+        "title": "Web design services",
+        "image": "./storage/uploads/web design_1675176757.png",
+        "description": "Ocoda offers you the best solutions and offers for web design service. We specialize in designing all types of websites, whether companies or people websites.",
+        "url": "C:\\Users\\a.jebiro\\Desktop\\learning\\1121\\storage\\uploads\\web design_1675176757.png"
+      },
+      {
+        "title": "Graphic Design services",
+        "image": "./storage/uploads/web design_1675176757.png",
+        "description": "We offer a high-quality graphic design service in various formats, with distinction and creativity without limits.",
+        "url": ""
+      },
+      {
+        "title": "Marketing services",
+        "image": "./storage/uploads/web design_1675176757.png",
+        "description": "Marketing services - Ocoda",
+        "url": ""
+      },
+      {
+        "title": "Social media management",
+        "image": "./storage/uploads/web design_1675176757.png",
+        "description": "Be at the forefront and increase your brand awareness with your customers, with the best social media page management service from Ocoda.",
+        "url": ""
+      },
+      {
+        "title": "Motion Graphic Services",
+        "image": "./storage/uploads/web design_1675176757.png",
+        "description": "In this service, you get a specially created motion video design that turns your brand into a story in which unique ideas combine with attractive designs.",
+        "url": ""
+      },
+      {
+        "title": "SEO services",
+        "image": "./storage/uploads/web design_1675176757.png",
+        "description": "Our SEO services are one of the most important aspects of our digital marketing work, and they are also our most important areas of activity, as they can contribute to your success in a short period of time.",
+        "url": ""
+      },
+      {
+        "title": "Mobile Application Developments",
+        "image": "./storage/uploads/web design_1675176757.png",
+        "description": "Get a mobile app that fulfills your aspirations with Ocoda Mobile App Services!",
+        "url": "t"
+      }
+    ]
+  }
+  

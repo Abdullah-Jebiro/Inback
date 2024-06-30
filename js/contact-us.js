@@ -1,6 +1,6 @@
 // Use jQuery to fetch and parse the JSON data
 $(document).ready(function () {
-  $.getJSON("contact_data.json", function (data) {
+  $.getJSON("./json/contact_data.json", function (data) {
     // Populate services
     const servicesRow = $("#contact-services-row");
     $.each(data.contact_services, function (index, service) {

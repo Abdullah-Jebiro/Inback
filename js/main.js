@@ -9,7 +9,7 @@ $(document).ready(function () {
   });
 
   // Fetch data from JSON file and populate filters and gallery
-  $.getJSON("Works.json", function (data) {
+  $.getJSON("./json/works.json", function (data) {
     // Generate filter buttons
     let filterButtons = "";
     data.filters.forEach(function (filter) {
@@ -56,7 +56,7 @@ $(document).ready(function () {
   });
 
   // Fetch JSON data using jQuery
-  $.getJSON("services.json", function (data) {
+  $.getJSON("./json/services.json", function (data) {
     const servicesContainer = $("#servicesContainer");
     const services = data.services;
 
