@@ -153,3 +153,34 @@ $(document).ready(function () {
     $(video_iframe).attr("src", "");
   }
 });
+
+
+  // Team Carousel - Start
+  // --------------------------------------------------
+    $(".team_carousel").owlCarousel({
+      loop: true,
+      autoplay: false,
+      autoplayTimeout: 800,
+      margin: 30,
+      center: true,
+      responsive: {
+        0: {
+           items: 1
+        },
+        576: {
+           items: 2
+        },
+        1025: {
+           items: 3
+        },
+        1200: {
+           items: 5
+        }
+     },
+      dots: true,
+      dotsContainer: '.team-swiper-pagination'
+    });
+  // Team Carousel - End
+
+
+
