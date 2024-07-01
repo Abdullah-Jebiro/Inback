@@ -10,31 +10,31 @@
     "items": [
       {
         "id": "1",
-        "src": "/storage/uploads/portfolio/1675179433.png",
+        "src": "./storage/uploads/portfolio/1675179433.png",
         "alt": "Fujibooks-Books",
         "title": "Fujibooks-Books"
       },
       {
         "id": "1",
-        "src": "/storage/uploads/portfolio/1675179433.png",
+        "src": "./storage/uploads/portfolio/1675179433.png",
         "alt": "Hojozat company - tourism",
         "title": "Hojozat company - tourism"
       },
       {
         "id": "1",
-        "src": "/storage/uploads/portfolio/1675179433.png",
+        "src": "./storage/uploads/portfolio/1675179433.png",
         "alt": "wheels- Electronic shop",
         "title": "wheels- Electronic shop"
       },
       {
         "id": "3",
-        "src": "/storage/uploads/portfolio/1675179433.png",
+        "src": "./storage/uploads/portfolio/1675179433.png",
         "alt": "Honeymoon - tourism",
         "title": "Honeymoon - tourism"
       },
       {
         "id": "3",
-        "src": "/storage/uploads/portfolio/1675179433.png",
+        "src": "./storage/uploads/portfolio/1675179433.png",
         "alt": "minute - perfumes",
         "title": "minute - perfumes"
       }
