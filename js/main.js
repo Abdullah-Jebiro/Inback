@@ -159,23 +159,20 @@ $(document).ready(function () {
   // --------------------------------------------------
     $(".team_carousel").owlCarousel({
       loop: true,
-      autoplay: false,
+      autoplay: true,
       autoplayTimeout: 800,
       margin: 30,
       center: true,
       responsive: {
-        0: {
+        300: {
            items: 1
         },
-        576: {
+        900: {
            items: 2
         },
-        1025: {
+        1200: {
            items: 3
         },
-        1200: {
-           items: 5
-        }
      },
       dots: true,
       dotsContainer: '.team-swiper-pagination'
